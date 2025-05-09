@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
@@ -5,13 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Jajanan Kekinian</title>
   <style>
-    body {
-      font-family: sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #fefae0;
-      color: #333;
-    }
+body {
+  font-family: sans-serif;
+  background: #1d1b1b;
+  color: #ffffff;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
     .container {
       max-width: 600px;
       margin: 0 auto;
@@ -20,36 +24,80 @@
     }
     h1 {
       font-size: 2rem;
-      color: #d62828;
+      color: #ff00d4;
     }
     p {
-      font-size: 1.1rem;
-    }
-    .price {
-      font-size: 1.5rem;
-      color: #2a9d8f;
-      margin: 1rem 0;
-    }
-    .btn {
-      background: #e76f51;
+        background: #007209;
       color: white;
       padding: 0.8rem 1.5rem;
       border: none;
-      border-radius: 8px;
+      border-radius: 5px;
       font-size: 1rem;
       text-decoration: none;
+      display: inline-block;
+      margin-bottom: 20px;
     }
-    .btn:hover {
-      background: #d65a3f;
+    .price {
+      font-size: 1.5rem;
+      color: #fbff00;
+      margin: 1rem 0;
     }
+    .btn {
+  background: #ff00d4;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 11px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 50px;
+  width: 150px; /* Tentukan lebar tombol */
+  height: 30px; /* Tentukan tinggi tombol */
+  text-align: center; /* Agar teks tetap di tengah */
+}
+   .img
+     {max-width: 100%;height: auto;}
+    .sakura2
+    {
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      gap: 100px;
+      
+
+    }
+     /* Efek kilau putih menggunakan pseudo-element */
+     .btn::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 100%; /* Awal di luar kotak */
+        width: 10000%;
+        height: 100%;
+        background: linear-gradient(120deg, rgba(255, 255, 255, 0) 0%, rgba(255, 0, 200, 0.8) 50%, rgba(255, 255, 255, 0) 100%);
+        transform: skewX(-20deg); /* Membuat efek kilauan lebih dinamis */
+        animation: shine 3s infinite;
+    }
+
+    /* Animasi untuk kilauan */
+    @keyframes shine {
+        0% {
+            left: -100%; /* Mulai dari luar kotak */
+        }
+        100% {
+            left: 100%; /* Bergerak ke kanan, keluar dari kotak */
+        }
+    }
+    
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Link Situs Gacor</h1>
-    <p>Game Slot Viral Gates of Olympus Super Scatter</p>
-    <div class="price">Min Deposit Hanya Rp10.000</div>
-    <a href="https://direct.lc.chat/8338921" class="btn">Pesan Sekarang via WhatsApp</a>
+    <h1>SITUS ONLINE</h1>
+    <div><img class="SAKURA2" height="60" width="250" alt="XDEWA" src="https://sakuratoto2arts.com/public/assets/images/icon/logo-1687341310086.webp"></div>
+    <a href="https://direct.lc.chat/8338921" class="btn">HUBUNGI SEKARANG</a>
+    <a href="https://direct.lc.chat/8338921" class="btn">DAFTAR SEKARANG</a>
   </div>
 </body>
 </html>
